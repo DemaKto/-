@@ -1,12 +1,12 @@
-# включить  < iostream >
-# включить  < math.h >
-// #include <stdlib.h>
-используя  пространство имен  std ;
-основной  ( )
+#include <iostream>
+#include <math.h>
+//#include <stdlib.h>
+using namespace std;
+int main ()
 {
-    поплавок r, длина;
-    cout<< " Введите радиус " <<endl; 5
-    ц>>р;
-    длина= 2 *M_PI*r;
-    cout << " Длина круга = " <<length;
+    float r, length;
+    cout<<"Enter radius"<<endl;5
+    cin>>r;
+    length=2*M_PI*r;
+    cout<<"Length of circle = "<<length;
 }
